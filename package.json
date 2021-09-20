@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "this is",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "fardeen <fardeenshaikh996@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+      "cli-color": "^2.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.12"
+    }
+}
